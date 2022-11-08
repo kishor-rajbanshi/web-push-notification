@@ -1,0 +1,29 @@
+{
+    "name": "kishor-rajbanshi/web-push-notification",
+    "description": "push notifications in browsers",
+    "type": "library",
+    "keywords": [
+        "web push notification"
+    ],
+    "authors": [
+        {
+            "name": "kishor-rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "KishorRajbanshi\\WebPushNotification\\": "src/"
+        }
+    }
+}
